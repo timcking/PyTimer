@@ -29,7 +29,6 @@ def main(iRuns):
             
             print("Heads: %s" % iHeads)
             print("Tails: %s" % iTails)
-            print("Difference: %s" % str(iHeads - iTails))
             
     finally:
         print('Request took %.03f sec.' % t.interval)
